@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace aoc_2023
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            PuzzleSolver puzzleSolver = new PuzzleSolver();
+            Console.WriteLine(puzzleSolver.Hello());
+        }
+    }
+}
