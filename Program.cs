@@ -7,7 +7,7 @@ namespace aoc_2023
         static void Main(string[] args)
         {
             PuzzleSolver puzzleSolver = new PuzzleSolver();
-            Console.WriteLine(puzzleSolver.Hello());
+            Console.WriteLine(puzzleSolver.DayTwo());
         }
     }
 }
